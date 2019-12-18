@@ -13,7 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/oyvinyg/knock-recognizer",
     packages=setuptools.find_packages(".", exclude=["test*"]),
-    install_requires=["pyaudio"],
+    install_requires=["pyaudio", "SpeechRecognition"],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Programming Language :: Python :: 3",
